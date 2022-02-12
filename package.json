@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "parcel src/*.html src/*.js --public-url ./",
-    "build": "rm -rf ./dist && parcel build src/*.html --public-url ./ --no-source-maps"
+    "start": "rm -rf ./dist && parcel src/*.html src/*.js",
+    "build": "rm -rf ./dist && parcel build src/*.html --public-url ./"
   },
   "dependencies": {
     "alpinejs": "^3.9.0",
